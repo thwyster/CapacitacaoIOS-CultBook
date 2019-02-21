@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		571934B6221E0BBA003D9AF6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571934B5221E0BBA003D9AF6 /* main.swift */; };
+		571934BD221E0CC0003D9AF6 /* Livro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571934BC221E0CC0003D9AF6 /* Livro.swift */; };
+		571934BF221E0CEE003D9AF6 /* Cliente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571934BE221E0CEE003D9AF6 /* Cliente.swift */; };
+		571934C1221E0D11003D9AF6 /* Endereco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571934C0221E0D11003D9AF6 /* Endereco.swift */; };
+		571934C3221E0D2B003D9AF6 /* Pedido.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571934C2221E0D2B003D9AF6 /* Pedido.swift */; };
+		571934C5221E0D4B003D9AF6 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571934C4221E0D4B003D9AF6 /* Login.swift */; };
+		571934C7221E0E52003D9AF6 /* ItemPedido.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571934C6221E0E52003D9AF6 /* ItemPedido.swift */; };
+		571934C9221E0EB0003D9AF6 /* AudioLivro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571934C8221E0EB0003D9AF6 /* AudioLivro.swift */; };
+		571934CB221E0F0A003D9AF6 /* Elivro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571934CA221E0F0A003D9AF6 /* Elivro.swift */; };
+		571934CD221E16A7003D9AF6 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571934CC221E16A7003D9AF6 /* Menu.swift */; };
+		571934D1221E1E94003D9AF6 /* LivroNegocio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571934D0221E1E94003D9AF6 /* LivroNegocio.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		571934B0221E0BBA003D9AF6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		571934B2221E0BBA003D9AF6 /* CultBOOK */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CultBOOK; sourceTree = BUILT_PRODUCTS_DIR; };
+		571934B5221E0BBA003D9AF6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		571934BC221E0CC0003D9AF6 /* Livro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Livro.swift; sourceTree = "<group>"; };
+		571934BE221E0CEE003D9AF6 /* Cliente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cliente.swift; sourceTree = "<group>"; };
+		571934C0221E0D11003D9AF6 /* Endereco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endereco.swift; sourceTree = "<group>"; };
+		571934C2221E0D2B003D9AF6 /* Pedido.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedido.swift; sourceTree = "<group>"; };
+		571934C4221E0D4B003D9AF6 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		571934C6221E0E52003D9AF6 /* ItemPedido.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPedido.swift; sourceTree = "<group>"; };
+		571934C8221E0EB0003D9AF6 /* AudioLivro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioLivro.swift; sourceTree = "<group>"; };
+		571934CA221E0F0A003D9AF6 /* Elivro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elivro.swift; sourceTree = "<group>"; };
+		571934CC221E16A7003D9AF6 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		571934D0221E1E94003D9AF6 /* LivroNegocio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivroNegocio.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		571934AF221E0BBA003D9AF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		571934A9221E0BBA003D9AF6 = {
+			isa = PBXGroup;
+			children = (
+				571934B4221E0BBA003D9AF6 /* CultBOOK */,
+				571934B3221E0BBA003D9AF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		571934B3221E0BBA003D9AF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				571934B2221E0BBA003D9AF6 /* CultBOOK */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		571934B4221E0BBA003D9AF6 /* CultBOOK */ = {
+			isa = PBXGroup;
+			children = (
+				571934B5221E0BBA003D9AF6 /* main.swift */,
+				571934CF221E1E5C003D9AF6 /* Negocio */,
+				571934CE221E1E34003D9AF6 /* Entidades */,
+			);
+			path = CultBOOK;
+			sourceTree = "<group>";
+		};
+		571934CE221E1E34003D9AF6 /* Entidades */ = {
+			isa = PBXGroup;
+			children = (
+				571934BC221E0CC0003D9AF6 /* Livro.swift */,
+				571934BE221E0CEE003D9AF6 /* Cliente.swift */,
+				571934C0221E0D11003D9AF6 /* Endereco.swift */,
+				571934C2221E0D2B003D9AF6 /* Pedido.swift */,
+				571934C6221E0E52003D9AF6 /* ItemPedido.swift */,
+				571934C8221E0EB0003D9AF6 /* AudioLivro.swift */,
+				571934CA221E0F0A003D9AF6 /* Elivro.swift */,
+			);
+			path = Entidades;
+			sourceTree = "<group>";
+		};
+		571934CF221E1E5C003D9AF6 /* Negocio */ = {
+			isa = PBXGroup;
+			children = (
+				571934C4221E0D4B003D9AF6 /* Login.swift */,
+				571934CC221E16A7003D9AF6 /* Menu.swift */,
+				571934D0221E1E94003D9AF6 /* LivroNegocio.swift */,
+			);
+			path = Negocio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		571934B1221E0BBA003D9AF6 /* CultBOOK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571934B9221E0BBA003D9AF6 /* Build configuration list for PBXNativeTarget "CultBOOK" */;
+			buildPhases = (
+				571934AE221E0BBA003D9AF6 /* Sources */,
+				571934AF221E0BBA003D9AF6 /* Frameworks */,
+				571934B0221E0BBA003D9AF6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CultBOOK;
+			productName = CultBOOK;
+			productReference = 571934B2221E0BBA003D9AF6 /* CultBOOK */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		571934AA221E0BBA003D9AF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ALUNO;
+				TargetAttributes = {
+					571934B1221E0BBA003D9AF6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 571934AD221E0BBA003D9AF6 /* Build configuration list for PBXProject "CultBOOK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 571934A9221E0BBA003D9AF6;
+			productRefGroup = 571934B3221E0BBA003D9AF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				571934B1221E0BBA003D9AF6 /* CultBOOK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		571934AE221E0BBA003D9AF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571934D1221E1E94003D9AF6 /* LivroNegocio.swift in Sources */,
+				571934BD221E0CC0003D9AF6 /* Livro.swift in Sources */,
+				571934C9221E0EB0003D9AF6 /* AudioLivro.swift in Sources */,
+				571934CB221E0F0A003D9AF6 /* Elivro.swift in Sources */,
+				571934B6221E0BBA003D9AF6 /* main.swift in Sources */,
+				571934CD221E16A7003D9AF6 /* Menu.swift in Sources */,
+				571934C1221E0D11003D9AF6 /* Endereco.swift in Sources */,
+				571934C5221E0D4B003D9AF6 /* Login.swift in Sources */,
+				571934C7221E0E52003D9AF6 /* ItemPedido.swift in Sources */,
+				571934BF221E0CEE003D9AF6 /* Cliente.swift in Sources */,
+				571934C3221E0D2B003D9AF6 /* Pedido.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		571934B7221E0BBA003D9AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		571934B8221E0BBA003D9AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		571934BA221E0BBA003D9AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		571934BB221E0BBA003D9AF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		571934AD221E0BBA003D9AF6 /* Build configuration list for PBXProject "CultBOOK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571934B7221E0BBA003D9AF6 /* Debug */,
+				571934B8221E0BBA003D9AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		571934B9221E0BBA003D9AF6 /* Build configuration list for PBXNativeTarget "CultBOOK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571934BA221E0BBA003D9AF6 /* Debug */,
+				571934BB221E0BBA003D9AF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 571934AA221E0BBA003D9AF6 /* Project object */;
+}
